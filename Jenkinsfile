@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout Codebase') {
             steps {
                 cleanWs()
-                git branch: 'main', url: 'https://github.com/KHOLUD-2030/Test-Repo.git'
+                git branch: 'main', url: 'https://github.com/SHAHAD908/hdtaskrepo.git'
             }
         }
 
